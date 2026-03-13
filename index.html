@@ -3,37 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional portfolio website for [Your Name]">
-    <title>Portfolio - [Your Name]</title>
+    <meta name="description" content="Professional portfolio website for Waldo Lazarus MBINDIKA">
+    <title>Portfolio - Waldo Lazarus MBINDIKA</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!--
-    ============================================================
-    ASSIGNMENT 1: RESPONSIVE PORTFOLIO WEBSITE
-    CSC4035 Web Programming and Technologies
-
-    Instructions:
-    1. Complete all TODO sections below
-    2. Use semantic HTML5 elements
-    3. Ensure all images have alt attributes
-    4. Ensure all form inputs have labels
-    5. Test responsiveness at multiple breakpoints
-    ============================================================
-    -->
-
-    <!-- Navigation -->
+     <!-- Navigation -->
     <header class="header">
         <nav class="nav">
-            <!-- TODO: Create navigation with links to each section
-                 Requirements:
-                 - Logo/site title
-                 - Navigation links (Home, About, Projects, Contact)
-                 - Mobile-friendly (hamburger menu optional)
-                 - Active state indication
-            -->
             <div class="nav__logo">
-                <a href="#home">[Your Name]</a>
+                <a href="#home">Waldo Lazarus MBINDIKA</a>
             </div>
             <ul class="nav__menu">
                 <li><a href="#home">Home</a></li>
@@ -47,61 +26,54 @@
     <main>
         <!-- Hero Section -->
         <section id="home" class="hero">
-            <!-- TODO: Create hero section
-                 Requirements:
-                 - Your name (h1)
-                 - Professional tagline
-                 - Call-to-action button
-                 - Consider using Flexbox for layout
-            -->
             <div class="hero__content">
-                <h1>Your Name</h1>
+                <h1>Waldo Lazarus MBINDIKA</h1>
                 <p class="hero__tagline">
-                    <!-- TODO: Add your professional tagline -->
-                    Web Developer | Designer | Problem Solver
+                    Student | Web Developer | Designer | Problem Solver  
                 </p>
+                <div class="hero__actions">
                 <a href="#contact" class="btn btn--primary">Get In Touch</a>
+                </div>
             </div>
         </section>
 
         <!-- About Section -->
         <section id="about" class="about">
-            <!-- TODO: Create about section
-                 Requirements:
-                 - Section heading (h2)
-                 - Profile image with alt text
-                 - Professional bio (150+ words)
-                 - Skills list
-                 - Use CSS Grid or Flexbox for layout
-            -->
             <div class="container">
-                <h2>About Me</h2>
+                <h2 id="about-heading">About Me</h2>
                 <div class="about__content">
                     <div class="about__image">
-                        <!-- TODO: Add your profile image -->
-                        <img src="images/profile-placeholder.jpg" alt="Profile photo of [Your Name]">
+                        <img src="images/Profile.jpeg" alt="Profile photo of Waldo Lazarus MBINDIKA">
                     </div>
                     <div class="about__text">
                         <p>
-                            <!-- TODO: Write your professional bio (150+ words)
-                                 Include:
-                                 - Your background
-                                 - Your interests in web development
-                                 - Your goals
-                                 - What makes you unique
-                            -->
-                            [Your professional bio goes here. Write at least 150 words about yourself,
-                            your background, your passion for web development, and your goals.
-                            This is your opportunity to introduce yourself to potential employers or clients.]
+                            I am a Computer Science student with a strong interest in web development.
+                            I am currently studying at the university of Zambia, where I have developed a
+                            solid foundation in HTML5, CSS3, JavaScript, alongside hands-on experience building web applications during internships and self-given projects.
                         </p>
+                        <p>
+                            My interest in web development began when I realised how
+                            software can improve everyday life. Since
+                            then, I found myself learning new ways of structuring accessible, semantic HTML. I enjoy the full spectrum of the
+                            development process: understanding a user's problem, sketching a
+                            solution, and then bringing it to life with clean, maintainable
+                            code.
+                        </p>
+                        <p>
+                            My goals are to be fully equiped in terms of web development and to be able create code that meets expectations and even goes further.
+                            I take pride in my work ethic and work attitude, I am always ready to learn and apply what i have, and will, learn. Excited to explore more ways of tackling problems and coming to the best solutions.
+                        </p>
+
                         <h3>Skills</h3>
                         <ul class="skills-list">
-                            <!-- TODO: Add your skills -->
                             <li>HTML5</li>
                             <li>CSS3</li>
                             <li>JavaScript</li>
                             <li>Responsive Design</li>
-                            <!-- Add more skills -->
+                            <li>Python</li>
+                            <li>Git && GitHub</li>
+                            <Li>Node.js</Li>
+                            <li>SQL</li>
                         </ul>
                     </div>
                 </div>
@@ -110,25 +82,17 @@
 
         <!-- Projects Section -->
         <section id="projects" class="projects">
-            <!-- TODO: Create projects section
-                 Requirements:
-                 - Section heading (h2)
-                 - Minimum 3 project cards
-                 - Each card: image, title, description, link(s)
-                 - Use CSS Grid for card layout
-            -->
             <div class="container">
                 <h2>My Projects</h2>
                 <div class="projects__grid">
                     <!-- Project Card 1 -->
                     <article class="project-card">
-                        <!-- TODO: Replace with your project -->
-                        <img src="images/project1-placeholder.jpg" alt="Screenshot of Project 1">
+                        <img src="images/Project1.png" alt="Screenshot of Project 1">
                         <div class="project-card__content">
-                            <h3>Project Title 1</h3>
+                            <h3>Project Title 1: Cake Business website</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                            Developed a website for a local bakery business, allowing customers to browse options available for sizes, flavors and types of baked goods. Also allows them to place orders and customize their orders.
+                            The idea was to prevent the store from being crowded by clients and to ensure every client gets exacly what they asked for and gives the employees time to deliver.
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
@@ -139,13 +103,12 @@
 
                     <!-- Project Card 2 -->
                     <article class="project-card">
-                        <!-- TODO: Replace with your project -->
-                        <img src="images/project2-placeholder.jpg" alt="Screenshot of Project 2">
+                        <img src="images/Project2.jpeg" alt="Screenshot of Project 2">
                         <div class="project-card__content">
-                            <h3>Project Title 2</h3>
+                            <h3>Project Title 2: Water payment system</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                            Developed a system that is run by water companies that allows clients to check their balances and pay for the services provided by the companies.
+                            Allows customers to pay at their convienience. Creates a trustworthy record of transactions.
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
@@ -156,13 +119,12 @@
 
                     <!-- Project Card 3 -->
                     <article class="project-card">
-                        <!-- TODO: Replace with your project -->
-                        <img src="images/project3-placeholder.jpg" alt="Screenshot of Project 3">
+                        <img src="images/Project3.png" alt="Screenshot of Project 3">
                         <div class="project-card__content">
-                            <h3>Project Title 3</h3>
+                            <h3>Project Title 3: Meter Reading System</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                            Developed a system that is run by utility companies that allows their employees to take meter readings digitally and the system automatically pushes the readings to a database that is read by a billing system and provides their clients with an accurate bill.
+                            It tackles the issue of Employees physically taking readings on paper and then re-entering the data onto the server that is read by the  billing system. 
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
@@ -170,25 +132,12 @@
                             </div>
                         </div>
                     </article>
-
-                    <!-- TODO: Add more project cards if desired -->
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
         <section id="contact" class="contact">
-            <!-- TODO: Create contact section
-                 Requirements:
-                 - Section heading (h2)
-                 - Contact form with:
-                   - Name field (required)
-                   - Email field (required, type="email")
-                   - Message textarea (required)
-                   - Submit button
-                 - All inputs must have associated labels
-                 - Use HTML5 validation attributes
-            -->
             <div class="container">
                 <h2>Contact Me</h2>
                 <form class="contact__form" action="#" method="POST">
@@ -239,18 +188,10 @@
         </section>
     </main>
 
-    <!-- Footer -->
     <footer class="footer">
-        <!-- TODO: Create footer
-             Requirements:
-             - Copyright notice
-             - Social media links (optional)
-             - Back to top link (optional)
-        -->
         <div class="container">
-            <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+            <p>&copy; 2026 Waldo Lazarus MBINDIKA. All rights reserved.</p>
             <nav class="footer__social">
-                <!-- TODO: Add your social media links -->
                 <a href="#" aria-label="GitHub">GitHub</a>
                 <a href="#" aria-label="LinkedIn">LinkedIn</a>
                 <a href="#" aria-label="Twitter">Twitter</a>

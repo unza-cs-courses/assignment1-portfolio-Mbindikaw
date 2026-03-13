@@ -127,24 +127,35 @@ Before submitting, verify:
 
 ## Your Information
 
-**Name:** [Your Name]
-**Student ID:** [Your Student ID]
-**Design Theme:** [Describe your portfolio theme/style]
+**Name:** Waldo Lazarus MBINDIKA
+**Student ID:** 2022024974
+**Design Theme:** It's a dark underwater theme like looking at the ocean at night.The overall feel is dark, cool, and glowing — similar to how things look when you're underwater with light filtering through from above.
 
 ### CSS Techniques Used
-- [ ] CSS Custom Properties
-- [ ] Flexbox
-- [ ] CSS Grid
-- [ ] Media Queries
-- [ ] Other: _______________
+- [x] CSS Custom Properties
+- [x] Flexbox
+- [x] CSS Grid
+- [x] Media Queries
+- [x] Other:CSS Transitions
 
 ### Challenges & Solutions
-[Describe any challenges you faced and how you solved them]
+Challenge 1: Centering the hero section
+I struggled to get my name and tagline to appear centered on the page. I solved this by applying display: flex, justify-content: center, and align-items: center to the .hero class, which centered the content both horizontally and vertically.
+
+Challenge 2: CSS variable typo
+I discovered that my hero section had no background colour showing. After investigating I found a typo in my custom property — --color-backgroung-alt was missing a d. Because CSS silently ignores unrecognised variables, there was no error message, which made it difficult to track down.
 
 ### Credits
-[List any images, fonts, or resources used with attribution]
+Images:
+-Profile photo — own photograph
+-Project screenshots — own work
+CSS Resources:
+-CSS Reset technique based on standard box-sizing: border-box reset
+-CSS Grid and Flexbox syntax referenced from MDN Web Docs
+Tools:
+-Code editor: VS Code
+-Browser testing: Google Chrome DevTools
 
----
 
 ## Academic Integrity
 
